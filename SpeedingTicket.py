@@ -27,7 +27,7 @@ def calculatefine(spd_vehicle, spd_limit):
 while name == '':
     name = input('What is your name?: ')
 
-#sees if driver has an outstanding warrant
+#Asks user for there speed
 while True:
     try:
         spd_vehicle = float(input('What is your vehicle speed?: '))
